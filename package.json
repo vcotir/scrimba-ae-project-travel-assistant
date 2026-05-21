@@ -1,15 +1,31 @@
 {
-  "name": "Scrim-s05s2c5",
-  "description": "https://scrimba.com/the-ai-engineer-path-c02v/~030",
+  "name": "ai-travel-planner",
+  "type": "module",
+  "description": "Get a grip, plan your trips!",
   "scripts": {
     "start": "vite",
+    "server": "node server.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "openai": "4.19.1",
-    "vite": "latest"
-  },
-  "devDependencies": {}
+    "@hono/node-server": "^2.0.3",
+    "@supabase/node-fetch": "^2.6.13",
+    "@supabase/supabase-js": "^2.106.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.4.2",
+    "hono": "^4.12.21",
+    "lucide-react": "^1.16.0",
+    "openai": "^4.19.1",
+    "radix-ui": "^1.4.3",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-hook-form": "^7.76.0",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.0",
+    "vite": "^8.0.0",
+    "zustand": "^5.0.13"
+  }
 }
