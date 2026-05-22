@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@import "tw-animate-css";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2FFFF;
+}
+
+.button.light-green {
+    background-color: #4BDCB0;
+}
